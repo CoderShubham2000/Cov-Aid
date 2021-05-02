@@ -3,46 +3,33 @@
             padding: 0;
             }
             .All {
-                width: 100%;
+                width: auto;
                 height: auto;
-                min-height: 100%;
+                min-height: auto;
                 position: relative;
             }
             #wrap-div {
                 position: absolute;
-                white-space: nowrap;
-                overflow: hidden;
-
+                white-space: normal;
             }
-            #logo {
-                margin-top: 0px;
-                margin-left: 140px;
-                width: 50px;
-                float: left;
-                margin-right: 4px;
-            }
-            h1 {
+            HeadTopic {
                 position: fixed;
-                left: 1150px;
+                left: 24em;
+                top: 2em;
                 text-align: right;
-                margin-top: 140px;
-                margin-right: 100px;
                 font-size: 50px;
                 color: #484848;
             }
             body {
-                min-width: 1000px;
                 font-family: 'Quicksand', sans-serif;
-                position: fixed;
-                width: 100%;
-                overflow: auto;
+                overflow-x: auto;
+                overflow-y: auto;          
             }
             h3 {
                 position: fixed;
-                left: 1370px;
-                top: 280px;
+                left: 75.5em;
+                top: 14em;
                 text-align: right;
-                margin-top: 20px;
                 font-family: 'Quicksand', sans-serif;
                 color: #6C6C6C;
                 
@@ -50,9 +37,8 @@
             button {
                 float: right;
                 position: fixed;
-                left: 1560px;
-                top: 400px;
-                text-align: right;
+                left: 101em;
+                top: 25em;
                 background-color: #7433FF;
                 border: none;
                 color: #FFFFFF;
@@ -60,9 +46,10 @@
                 text-align: center;
                 text-decoration: none;
                 display: inline-block;
-                font-size: 16px;
+                font-size: 99%;
                 border-radius:10px;
                 font-weight: bold;
+                font-family: 'Quicksand', sans-serif;
             }
 
             .box { 
